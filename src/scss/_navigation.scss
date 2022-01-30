@@ -1,0 +1,48 @@
+.navigation {
+  z-index: 9999;
+  position: absolute;
+  top: 37px;
+  right: 127px;
+
+  &_log {
+    display: flex;
+    justify-content: right;
+    font-size: 14px;
+    line-height: 36px;
+    margin-right: 20px;
+    cursor: pointer;
+
+    .sign-up {
+      border: 1px solid $accent-color;
+      padding: 9px 10px;
+    }
+
+    &--link {
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 400;
+      color: $font-color;
+    }
+  }
+
+  &_menu {
+    font-size: 18px;
+    line-height: 42px;
+    padding-top: 17px;
+
+    cursor: pointer;
+
+    &--link {
+      margin-left: 34px;
+      margin-right: 21px;
+      font-weight: 600;
+
+      &:hover {
+        border: 1px solid $font-color;
+        padding: 9px 20px;
+        margin-left: 13px;
+        margin-right: 0;
+      }
+    }
+  }
+}

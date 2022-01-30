@@ -1,0 +1,32 @@
+.columns {
+  background-image: url("../assets/3\ Columns\ Background.png");
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: $progress-numbers;
+  padding: 46px 0 86px 0;
+
+  &_content {
+    &--h1 {
+      font-size: 90px;
+      line-height: 122px;
+    }
+
+    &--h2 {
+      font-size: 18px;
+      line-height: 30px;
+      letter-spacing: -0.32px;
+      padding: 10px 0 28px 0;
+    }
+
+    &--p {
+      font-size: 16px;
+      line-height: 18px;
+      letter-spacing: -0.32px;
+    }
+  }
+}
+
+

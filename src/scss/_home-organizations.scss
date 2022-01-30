@@ -1,0 +1,12 @@
+.organizations {
+  padding-top: 70px;
+  text-align: center;
+
+  &_heading {
+    @include heading;
+  }
+
+  &_decoration {
+    padding: 25px 0 50px 0;
+  }
+}
