@@ -10,11 +10,11 @@ const Navigation = () => {
             <NavLink to="/sign-in" className="navigation_log--link">Zaloguj</NavLink>
           </li>
           <li className="navigation_log-list">
-            <NavLink to="/sign-up" className="navigation_log--link sign-up">Załóż konto</NavLink>
+            <NavLink to="/sign-up" className="navigation_log--link signUp">Załóż konto</NavLink>
           </li>
         </ul>
         <div className="navigation_menu">
-          <Link to="#home" className="navigation_menu--link">Start</Link>
+          <NavLink to="/" className="navigation_menu--link">Start</NavLink>
           <Link to="#home-four-steps" className="navigation_menu--link">O co chodzi?</Link>
           <Link to="#home-about" className="navigation_menu--link">O nas</Link>
           <Link to="#home-organizations" className="navigation_menu--link">Fundacje i organizacje</Link>

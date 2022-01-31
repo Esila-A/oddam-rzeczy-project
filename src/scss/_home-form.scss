@@ -1,0 +1,88 @@
+.form {
+  text-align: center;
+  padding: 200px 142px 279px 1230px;
+  margin-top: 80px;
+  position: relative;
+  color: $font-color;
+
+  &::before {
+    content: "";
+    background-image: url("../assets/Background-Contact-Form.jpg");
+    opacity: 0.25;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+  }
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--heading {
+      @include heading;
+    }
+
+    &--decoration {
+      padding: 25px 0 70px 0;
+    }
+  }
+
+  &_fields {
+
+    &--inputs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .requests {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    padding-bottom: 40px;
+
+    .text {
+      padding-bottom: 12px;
+      font-weight: 500;
+    }
+
+    .input {
+      border: none;
+      border-bottom: 2px solid $one;
+      width: 256px;
+      height: 24px;
+      background: transparent;
+
+      &_name {
+        margin-right: 16px;
+      }
+
+      &_message {
+        resize: none;
+        width: 528px;
+        height: 97px;
+      }
+
+      &::placeholder {
+        color: #3636362c;
+        font-family: $font-base;
+      }
+    }
+  }
+
+  &_button {
+    font-size: 18px;
+    line-height: 32px;
+    border: 2px solid $one;
+    padding: 13px 52px;
+    margin-top: 44px;
+    background-color: transparent;
+    align-self: flex-end;
+  }
+}

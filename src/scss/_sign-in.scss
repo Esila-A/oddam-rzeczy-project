@@ -1,0 +1,81 @@
+.sign-in {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: $font-color;
+
+  &_heading {
+    @include heading;
+    font-size: 40px;
+  }
+
+  &_decoration {
+    padding: 31px 0 70px 0;
+  }
+
+  &_form {
+    background-color: $steps-background;
+    padding: 40px 67px;
+    margin: 0 210px;
+
+    .requests {
+      font-size: 16px;
+      line-height: 25px;
+      text-align: left;
+      padding-bottom: 40px;
+
+      .text {
+        padding-bottom: 12px;
+        font-weight: 500;
+      }
+
+      .input {
+        border: none;
+        border-bottom: 2px solid $one;
+        width: 256px;
+        height: 24px;
+        background: transparent;
+
+        &_email {
+          margin-bottom: 31px;
+        }
+      }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    line-height: 32px;
+    font-size: 16px;
+    margin-top: 53px;
+
+
+    &_sign-up {
+      text-decoration: none;
+      color: $font-color;
+
+      &:hover {
+        border: 1px solid $font-color;
+        padding: 4.5px 20px;
+        margin: -5.5px -21px;
+      }
+    }
+
+    &_sign-in {
+      background-color: transparent;
+      border: none;
+      font-family: $font-base;
+      color: $font-color;
+      padding: 0;
+
+      &:hover {
+        border: 1px solid $font-color;
+        padding: 9px 20px;
+        margin: -5.5px -21px;
+      }
+    }
+  }
+}

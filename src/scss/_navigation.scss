@@ -12,7 +12,7 @@
     margin-right: 20px;
     cursor: pointer;
 
-    .sign-up {
+    .signUp {
       border: 1px solid $accent-color;
       padding: 9px 10px;
     }
@@ -36,6 +36,8 @@
       margin-left: 34px;
       margin-right: 21px;
       font-weight: 600;
+      text-decoration: none;
+      color: $font-color;
 
       &:hover {
         border: 1px solid $font-color;
