@@ -1,8 +1,7 @@
 .organizations {
-  padding-top: 70px;
   text-align: center;
-
-  border: 5px solid black;
+  min-height: 900px;
+  margin: 80px 0;
 
   &_heading {
     @include heading;
@@ -10,5 +9,97 @@
 
   &_decoration {
     padding: 25px 0 50px 0;
+  }
+
+  &_buttons {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 550px;
+    font-size: 24px;
+
+    &--button {
+      background-color: transparent;
+      border: none;
+      color: $font-color;
+
+      &:hover {
+        border: 2px solid $one;
+        padding: 13px 42px;
+        margin: -20px -38px;
+      }
+
+      &:focus {
+        border: 2px solid $one;
+        padding: 13px 42px;
+        margin: -14px -38px;
+      }
+    }
+
+    &--button-one {
+      background-color: transparent;
+      border: none;
+      color: $font-color;
+
+      &:hover,
+      &:focus {
+        border: 2px solid $one;
+        padding: 27px 42px;
+        margin: -20px -38px;
+      }
+    }
+  }
+
+  &_paragraph {
+    margin-bottom: 66px;
+    font-size: 22px;
+    line-height: 30px;
+    color: $font-color;
+  }
+
+  &_list {
+    margin-bottom: 63px;
+    color: $font-color;
+    padding: 0 300px;
+
+    &--elements {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 32px 0;
+
+      &:not(:last-child) {
+        border-bottom: 2px solid $one;
+      }
+
+      .left-side {
+        text-align: left;
+
+        .title {
+          font-size: 26px;
+          line-height: 35px;
+        }
+
+        .description {
+          font-size: 18px;
+          line-height: 22px;
+        }
+      }
+
+      .collected {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .pag-numbers {
+    padding: 13px 15px;
+    margin: 0 20px;
+    border: 2px solid transparent;
+    &:hover {
+      cursor: pointer;
+      border-color: $one;
+    }
   }
 }

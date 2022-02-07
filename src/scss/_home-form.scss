@@ -28,17 +28,32 @@
     }
 
     &--decoration {
-      padding: 25px 0 70px 0;
+      padding: 25px 0 35px 0;
     }
   }
 
   &_fields {
+    display: flex;
+    flex-direction: column;
 
     &--inputs {
       display: flex;
       justify-content: center;
-      align-items: center;
+      padding-top: 35px;
     }
+
+    .responsePositive {
+      color: rgb(15, 168, 76);
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .responseNegative {
+      color: rgb(197, 37, 37);
+      font-size: 18px;
+      font-weight: 700;
+    }
+
   }
 
   .requests {
@@ -73,6 +88,15 @@
         color: #3636362c;
         font-family: $font-base;
       }
+    }
+
+    .error-message {
+      color: red;
+      font-family: $font-base;
+      font-size: 12px;
+      font-weight: 600;
+      text-align: left;
+      padding-top: 6px;
     }
   }
 

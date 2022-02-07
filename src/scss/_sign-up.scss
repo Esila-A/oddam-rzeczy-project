@@ -16,9 +16,20 @@
   }
 
   &_form {
-    background-color: $steps-background;
-    padding: 40px 67px;
-    margin: 0 210px;
+    &--fields {
+      background-color: $steps-background;
+      padding: 40px 67px;
+      margin: 0 210px;
+
+      .error-message {
+        color: red;
+        font-family: $font-base;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: left;
+        padding-top: 6px;
+      }
+    }
 
     .requests {
       font-size: 16px;
@@ -31,54 +42,49 @@
         font-weight: 500;
       }
 
+      .pass-txt {
+        margin-top: 31px;
+      }
+
       .input {
         border: none;
         border-bottom: 2px solid $one;
         width: 256px;
         height: 24px;
         background: transparent;
-
-        &_email {
-          margin-bottom: 31px;
-        }
-
-        &_password {
-          margin-bottom: 31px;
-        }
-      }
-    }
-  }
-
-  .buttons {
-    display: flex;
-    justify-content: space-around;
-    line-height: 32px;
-    font-size: 16px;
-    margin-top: 53px;
-
-
-    &_sign-in {
-      text-decoration: none;
-      color: $font-color;
-
-      &:hover {
-        border: 1px solid $font-color;
-        padding: 4.5px 20px;
-        margin: -5.5px -21px;
       }
     }
 
-    &_sign-up {
-      background-color: transparent;
-      border: none;
-      font-family: $font-base;
-      color: $font-color;
-      padding: 0;
+    .buttons {
+      display: flex;
+      justify-content: space-around;
+      line-height: 32px;
+      font-size: 16px;
+      margin-top: 53px;
 
-      &:hover {
-        border: 1px solid $font-color;
-        padding: 9px 20px;
-        margin: -5.5px -21px;
+      &_sign-in {
+        text-decoration: none;
+        color: $font-color;
+
+        &:hover {
+          border: 1px solid $font-color;
+          padding: 4.5px 20px;
+          margin: -5.5px -21px;
+        }
+      }
+
+      &_sign-up {
+        background-color: transparent;
+        border: none;
+        font-family: $font-base;
+        color: $font-color;
+        padding: 0;
+
+        &:hover {
+          border: 1px solid $font-color;
+          padding: 9px 20px;
+          margin: -5.5px -21px;
+        }
       }
     }
   }
