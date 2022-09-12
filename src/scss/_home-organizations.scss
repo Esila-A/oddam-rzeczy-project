@@ -1,39 +1,41 @@
 .organizations {
   text-align: center;
-  min-height: 900px;
-  margin: 80px 0;
+  min-height: 100vh;
+  margin-top: 80px;
 
   &_heading {
     @include heading;
   }
 
   &_decoration {
-    padding: 25px 0 50px 0;
+    width: 13.5rem;
+    padding: 20px 0 60px 0;
   }
 
   &_buttons {
     margin-bottom: 70px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 550px;
-    font-size: 24px;
+    padding: 0 530px;
+    font-size: 22px;
 
     &--button {
       background-color: transparent;
       border: none;
       color: $font-color;
+      line-height: 1.3rem;
 
       &:hover {
-        border: 2px solid $one;
-        padding: 13px 42px;
-        margin: -20px -38px;
+        border: 1.5px solid $one;
+        padding: 13.5px 42px;
+        margin: -18px -37.5px;
       }
 
       &:focus {
-        border: 2px solid $one;
-        padding: 13px 42px;
-        margin: -14px -38px;
+        border: 1.5px solid $one;
+        padding: 13.5px 42px;
+        margin: -14px -37.5px;
       }
     }
 
@@ -44,30 +46,30 @@
 
       &:hover,
       &:focus {
-        border: 2px solid $one;
-        padding: 27px 42px;
-        margin: -20px -38px;
+        border: 1.5px solid $one;
+        padding: 22px 42px;
+        margin: -14.5px -37.5px;
       }
     }
   }
 
   &_paragraph {
-    margin-bottom: 66px;
-    font-size: 22px;
-    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 28px;
     color: $font-color;
   }
 
   &_list {
     margin-bottom: 63px;
     color: $font-color;
-    padding: 0 300px;
+    padding: 0 250px;
 
     &--elements {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 32px 0;
+      padding: 25px 0;
 
       &:not(:last-child) {
         border-bottom: 2px solid $one;
@@ -77,25 +79,25 @@
         text-align: left;
 
         .title {
-          font-size: 26px;
-          line-height: 35px;
+          font-size: 24px;
+          line-height: 30px;
         }
 
         .description {
-          font-size: 18px;
-          line-height: 22px;
+          font-size: 16px;
+          line-height: 20px;
         }
       }
 
       .collected {
-        font-size: 18px;
+        font-size: 16px;
       }
     }
   }
 
   .pag-numbers {
     padding: 13px 15px;
-    margin: 0 20px;
+    margin: 0 10px;
     border: 2px solid transparent;
     &:hover {
       cursor: pointer;

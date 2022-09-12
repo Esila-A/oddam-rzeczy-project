@@ -8,17 +8,17 @@
 
   &_heading {
     @include heading;
-    font-size: 40px;
   }
 
   &_decoration {
-    padding: 31px 0 70px 0;
+    width: 14rem;
+    padding: 10px 0 40px 0;
   }
 
   &_form {
     &--fields {
       background-color: $steps-background;
-      padding: 40px 67px;
+      padding: 5px 60px 30px 60px;
       margin: 0 210px;
 
       .error-message {
@@ -29,13 +29,17 @@
         text-align: left;
         padding-top: 6px;
       }
+
+      .fail {
+        text-align: center;
+        padding-bottom: 2rem;
+      }
     }
 
     .requests {
       font-size: 16px;
       line-height: 25px;
       text-align: left;
-      padding-bottom: 40px;
 
       .text {
         padding-bottom: 12px;
@@ -43,15 +47,16 @@
       }
 
       .pass-txt {
-        margin-top: 31px;
+        margin-top: 25px;
       }
 
       .input {
         border: none;
-        border-bottom: 2px solid $one;
-        width: 256px;
+        border-bottom: 1.5px solid $one;
+        width: 14rem;
         height: 24px;
         background: transparent;
+        font-size: .9rem;
       }
     }
 
@@ -60,7 +65,7 @@
       justify-content: space-around;
       line-height: 32px;
       font-size: 16px;
-      margin-top: 53px;
+      margin-top: 40px;
 
       &_sign-in {
         text-decoration: none;

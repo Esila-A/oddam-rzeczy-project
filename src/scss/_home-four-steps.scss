@@ -7,6 +7,7 @@
   }
 
   &_decoration {
+    width: 13.5rem;
     padding: 31px 0 44px 0;
   }
 
@@ -15,8 +16,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 71px 400px 62px 400px;
+    padding: 71px 350px 62px 350px;
     margin-bottom: 35px;
+
+    &--icons {
+      height: 4.5rem;
+    }
 
     &--list {
       text-align: center;
@@ -40,14 +45,15 @@
 
   &_link {
     display: inline-block;
-    font-size: 36px;
+    font-size: 1.8rem;
     color: $font-color;
     text-decoration: none;
     border: 1px solid $font-color;
     font-weight: 300;
-    line-height: 45px;
-    padding: 13px 93px;
+    line-height: 40px;
+    padding: 13px 0;
     cursor: pointer;
+    width: 260px;
   }
 }
 

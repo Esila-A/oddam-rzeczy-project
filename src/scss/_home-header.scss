@@ -2,41 +2,35 @@
   display: flex;
   align-items: center;
   color: $font-color;
+  // z-index: -1;
+  position: relative;
+  left: -410px;
 
   .hero-image {
-    position: relative;
-    top: 0px;
-    left: -483px;
-    max-width: 100%;
-    height: auto;
+    height: 100vh;
   }
 
   &_content {
-
-    position: absolute;
-    right: 142px;
-
-    width: 674px;
-    z-index: 9999;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 133px 0 66px;
+    margin: 70px 0 0 80px;
 
     &--heading {
       @include heading;
     }
 
     &--decoration {
-      padding: 25px 0 65px 0;
+      width: 13.5rem;
+      padding: 20px 0 60px 0;
     }
   }
 
   &_links {
     display: flex;
     text-align: center;
-    font-size: 36px;
+    font-size: 1.8rem;
   }
 
   &_link {
@@ -44,17 +38,18 @@
     text-decoration: none;
     border: 1px solid $font-color;
     font-weight: 300;
-    line-height: 45px;
+    line-height: 40px;
     cursor: pointer;
+    width: 260px;
 
       
     &--one {
-      padding: 13px 93px;
+      padding: 13px 0;
       margin-right: 44px;
     }
 
     &--two {
-      padding: 13px 51px;
+      padding: 13px 0;
     }
   }
 }

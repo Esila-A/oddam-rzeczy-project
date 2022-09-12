@@ -2,16 +2,25 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0 142px 22px 142px;
+  padding: 0 137px 22px 142px;
+  // padding-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 
   &_copyright {
-    margin-right: 650px;
-    font-size: 18px;
+    margin-right: 550px;
+    font-size: 16px;
   }
 
   &_social-media {
     .facebook {
-      margin-right: 10px
-    };
+      margin-right: 15px;
+      height: 1.6rem
+    }
+
+    .instagram {
+      height: 1.6rem;
+    }
   }
 }

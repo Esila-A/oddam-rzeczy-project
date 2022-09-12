@@ -1,5 +1,6 @@
 import { useState } from "react";
 import decoration from "../assets/Decoration.svg";
+import HomeFooter from "./home-footer";
 
 const HomeForm = () => {
   const initialValues = { name: "", email: "", message: "" };
@@ -53,7 +54,7 @@ const HomeForm = () => {
           setResponseMessage(
             <p className="responseNegative">
               Nieznany błąd<br />
-              Spróbuje jeszcze raz.
+              Spróbuj jeszcze raz.
             </p>
           );
         }
@@ -64,7 +65,7 @@ const HomeForm = () => {
           <p className="responseNegative">
             Coś poszło nie tak...
             <br />
-            Spróbuje jeszcze raz.
+            Spróbuj jeszcze raz.
           </p>
         );
       });
@@ -150,6 +151,7 @@ const HomeForm = () => {
           </button>
         </form>
       </div>
+      <HomeFooter/>
     </div>
   );
 };

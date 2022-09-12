@@ -2,11 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
+  height: 100vh;
 
   &_content {
     background-color: $steps-background;
     text-align: center;
-    padding: 181px 140px;
+    padding: 181px 0;
     width: 50%;
 
     &--heading {
@@ -14,12 +15,13 @@
     }
 
     &--decoration {
+      width: 13.5rem;
       padding: 26px 0 55px 0;
     }
 
     &--paragraph {
-      font-size: 30px;
-      line-height: 54px;
+      font-size: 28px;
+      line-height: 50px;
       letter-spacing: -0.6px;
     }
 

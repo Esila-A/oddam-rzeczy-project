@@ -1,43 +1,62 @@
 .navigation {
-  z-index: 9999;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 37px;
+  margin-right: 142px;
+  align-items: flex-end;
   position: absolute;
-  top: 37px;
-  right: 127px;
+  right: 0;
 
-  &_log {
+
+  .before,
+  .after {
     display: flex;
-    justify-content: right;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 36px;
     margin-right: 20px;
-    cursor: pointer;
 
-    .signUp {
+    .border {
       border: 1px solid $accent-color;
       padding: 9px 10px;
     }
 
-    &--link {
+    .fat {
+      font-weight: bold;
+    }
+
+    .hello {
+      cursor: default;
+    }
+
+    &_option {
       margin-left: 20px;
       text-decoration: none;
       font-weight: 400;
       color: $font-color;
+      cursor: pointer;
+
+      &--button {
+        background-color: transparent;
+        border: none;
+        margin-left: 20px;
+        font-family: $font-base;
+      }
     }
   }
 
   &_menu {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 42px;
     padding-top: 17px;
 
-    cursor: pointer;
-
     &--link {
-      margin-left: 34px;
+      margin-left: 32px;
       margin-right: 21px;
-      font-weight: 600;
+      font-weight: 400;
       text-decoration: none;
       color: $font-color;
+      cursor: pointer;
 
       &:hover {
         border: 1px solid $font-color;

@@ -1,21 +1,21 @@
 .form {
   text-align: center;
-  padding: 200px 142px 279px 1230px;
-  margin-top: 80px;
+  padding: 200px 220px 279px 1140px;
   position: relative;
   color: $font-color;
 
   &::before {
     content: "";
     background-image: url("../assets/Background-Contact-Form.jpg");
-    opacity: 0.25;
     background-repeat: no-repeat;
+    opacity: 0.20;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;  
+    background-size: 110rem;
+    z-index: -1;
   }
 
   &_content {
@@ -28,6 +28,7 @@
     }
 
     &--decoration {
+      width: 13.5rem;
       padding: 25px 0 35px 0;
     }
   }
@@ -70,7 +71,7 @@
     .input {
       border: none;
       border-bottom: 2px solid $one;
-      width: 256px;
+      width: 235px;
       height: 24px;
       background: transparent;
 
@@ -80,7 +81,7 @@
 
       &_message {
         resize: none;
-        width: 528px;
+        width: 490px;
         height: 97px;
       }
 
@@ -101,11 +102,11 @@
   }
 
   &_button {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 32px;
     border: 2px solid $one;
-    padding: 13px 52px;
-    margin-top: 44px;
+    padding: 7px 52px;
+    margin-top: 40px;
     background-color: transparent;
     align-self: flex-end;
   }
