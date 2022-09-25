@@ -14,10 +14,10 @@ const HomeHeader = () => {
         <h1 className="header_content--heading">Zacznij pomagać!<br/>Oddaj niechciane rzeczy w zaufane ręce</h1>
         <img src={decoration} alt="decoration" className="header_content--decoration"/>
         <div className="header_links">
-          {!currentUser && <NavLink to="sign-in" className="header_link header_link--one">ODDAJ<br/>RZECZY</NavLink>}
-          {!currentUser && <NavLink to="sign-in" className="header_link header_link--two">ZORGANIZUJ<br/>ZBIÓRKĘ</NavLink>}
-          {currentUser && <NavLink to="hand-over" className="header_link header_link--one">ODDAJ<br/>RZECZY</NavLink>}
-          {currentUser && <NavLink to="hand-over" className="header_link header_link--two">ZORGANIZUJ<br/>ZBIÓRKĘ</NavLink>}
+          {!currentUser && <NavLink to="/sign-in" className="header_link header_link--one">ODDAJ<br/>RZECZY</NavLink>}
+          {!currentUser && <NavLink to="/sign-in" className="header_link header_link--two">ZORGANIZUJ<br/>ZBIÓRKĘ</NavLink>}
+          {currentUser && <NavLink to="/hand-over" className="header_link header_link--one">ODDAJ<br/>RZECZY</NavLink>}
+          {currentUser && <NavLink to="/hand-over" className="header_link header_link--two">ZORGANIZUJ<br/>ZBIÓRKĘ</NavLink>}
         </div>
       </div>
     </div>

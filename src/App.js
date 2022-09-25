@@ -14,10 +14,10 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/oddam-rzeczy-project" element={<Home />} />
-        <Route path="sign-in" element={<SignIn />} />
-        <Route path="sign-up" element={<SignUp />} />
-        <Route path="sign-out" element={<SignOut />} />
-        <Route path="hand-over" element={<HandOver />} />
+        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/sign-out" element={<SignOut />} />
+        <Route path="/hand-over" element={<HandOver />} />
       </Routes>
     </div>
   );
