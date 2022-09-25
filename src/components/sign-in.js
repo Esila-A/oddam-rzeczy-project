@@ -44,7 +44,7 @@ export default function Login() {
         setError("");
         setLoading(true);
         await login(emailRef.current.value, passwordRef.current.value);
-        navigate("/");
+        navigate("/oddam-rzeczy-project");
       } catch {
         setError("Nie ma takiego użytkownika :(");
       }

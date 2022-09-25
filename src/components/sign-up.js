@@ -55,7 +55,7 @@ const SignUp = () => {
       try {
         setLoading(true);
         await signup(emailRef.current.value, passwordRef.current.value);
-        navigate("/");
+        navigate("/oddam-rzeczy-project");
       } catch {
         setError("Nie udało się zarejestrować");
       }
