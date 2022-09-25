@@ -13,11 +13,11 @@ function App() {
     <div className="app">
       <Navigation />
       <Routes>
-        <Route path="oddam-rzeczy/" element={<Home />} />
-        <Route path="oddam-rzeczy/sign-in" element={<SignIn />} />
-        <Route path="oddam-rzeczy/sign-up" element={<SignUp />} />
-        <Route path="oddam-rzeczy/sign-out" element={<SignOut />} />
-        <Route path="oddam-rzeczy/hand-over" element={<HandOver />} />
+        <Route path="oddam-rzeczy-project/" element={<Home />} />
+        <Route path="oddam-rzeczy-project/sign-in" element={<SignIn />} />
+        <Route path="oddam-rzeczy-project/sign-up" element={<SignUp />} />
+        <Route path="oddam-rzeczy-project/sign-out" element={<SignOut />} />
+        <Route path="oddam-rzeczy-project/hand-over" element={<HandOver />} />
       </Routes>
     </div>
   );
