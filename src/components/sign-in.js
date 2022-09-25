@@ -81,7 +81,7 @@ export default function Login() {
           <p className="error-message">{errorPassword}</p>
         </div>
         <div className="buttons">
-          <NavLink to="sign-up" className="buttons_sign-up">
+          <NavLink to="/sign-up" className="buttons_sign-up">
             Załóż konto
           </NavLink>
           <button type="submit" className="buttons_sign-in" disabled={loading}>

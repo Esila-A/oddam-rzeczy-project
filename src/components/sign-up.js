@@ -102,7 +102,7 @@ const SignUp = () => {
           <p className="error-message">{errorPasswordConfirm}</p>
         </div>
         <div className="buttons">
-          <NavLink to="sign-in" className="buttons_sign-in">
+          <NavLink to="/sign-in" className="buttons_sign-in">
             Zaloguj się
           </NavLink>
           <button type="submit" className="buttons_sign-up" disabled={loading}>
