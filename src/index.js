@@ -6,7 +6,7 @@ import App from './App';
 import { AuthProvider } from './components/authContext';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/oddam-rzeczy-project">
     <AuthProvider>
       <App />
     </AuthProvider>
