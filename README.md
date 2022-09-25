@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# ODDAM RZECZY - helping those in need
+Website created for a JavaScript Developer bootcamp using JavaScript and React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+* [about](#about)
+* [technologies and libraries used](#technologies-and-libraries-used)
+* [the project status](#the-project-status)
 
-## Available Scripts
 
-In the project directory, you can run:
+### About 
+This is a website I created for my JavaScript Developer bootcamp. I was given a design and asked to recreate it (the design was made for only a desktop version - that's why the website is not responsive).<br/><br/>
+The basic requirements for this project were to create a homepage (including a form and pagination section) and sign-up, sing-in and sing-out pages. The buttons on the website were supposed to take users to the sign-in page.<br/><br/>
+Additionally, to make a bit more advanced version, we could add to the website an actual registration and login/logout functionalities. If did so, the buttons, depending on the user status, were supposed to take a user to the sign-in page or a "giveaway" form. Also, the menu options were partly to change.<br/><br/>
+In this project the most challenging parts were the reginstration and pagination ones, as both were very new to me and I didn't know how to tackle them at all. After a lot of searching and learning I decided to apply a Firebase Authentication to the registration functionality, and a Firebase Database to the pagination section. 
 
-### `npm start`
+### Technologies and libraries used
+HTML<br/>
+CSS<br/>
+JavaScript<br/>
+Sass (1.46.0)<br/>
+React (17.0.2)<br/>
+React Router (6.3.0)<br/>
+Firebase Database<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### The project status
+Done with its development. Website available on [tlumaczenia-a-wagner.pl](https://tlumaczenia-a-wagner.pl/)
