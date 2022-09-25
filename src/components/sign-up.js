@@ -55,7 +55,7 @@ const SignUp = () => {
       try {
         setLoading(true);
         await signup(emailRef.current.value, passwordRef.current.value);
-        navigate("/oddam-rzeczy-project");
+        navigate("/");
       } catch {
         setError("Nie udało się zarejestrować");
       }
@@ -102,7 +102,7 @@ const SignUp = () => {
           <p className="error-message">{errorPasswordConfirm}</p>
         </div>
         <div className="buttons">
-          <NavLink to="/sign-in" className="buttons_sign-in">
+          <NavLink to="sign-in" className="buttons_sign-in">
             Zaloguj się
           </NavLink>
           <button type="submit" className="buttons_sign-up" disabled={loading}>

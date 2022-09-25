@@ -40,8 +40,8 @@ const HomeFourSteps = () => {
           <p>kurier przyjedzie<br/>w dogodnym terminie</p>
         </div>
       </div>
-      {!currentUser && <NavLink to="/sign-in" className="steps_link">ODDAJ<br/>RZECZY</NavLink>}
-      {currentUser && <NavLink to="/hand-over" className="steps_link">ODDAJ<br/>RZECZY</NavLink>}
+      {!currentUser && <NavLink to="sign-in" className="steps_link">ODDAJ<br/>RZECZY</NavLink>}
+      {currentUser && <NavLink to="hand-over" className="steps_link">ODDAJ<br/>RZECZY</NavLink>}
     </div>
   )
 }

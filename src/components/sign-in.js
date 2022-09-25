@@ -44,7 +44,7 @@ export default function Login() {
         setError("");
         setLoading(true);
         await login(emailRef.current.value, passwordRef.current.value);
-        navigate("/oddam-rzeczy-project");
+        navigate("/");
       } catch {
         setError("Nie ma takiego użytkownika :(");
       }
@@ -81,7 +81,7 @@ export default function Login() {
           <p className="error-message">{errorPassword}</p>
         </div>
         <div className="buttons">
-          <NavLink to="/sign-up" className="buttons_sign-up">
+          <NavLink to="sign-up" className="buttons_sign-up">
             Załóż konto
           </NavLink>
           <button type="submit" className="buttons_sign-in" disabled={loading}>
