@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oddam-rzeczy-project/static/css/main.4b282f74.css",
-    "main.js": "/oddam-rzeczy-project/static/js/main.dc7d6dc1.js",
+    "main.css": "/oddam-rzeczy-project/static/css/main.7444894e.css",
+    "main.js": "/oddam-rzeczy-project/static/js/main.78f55b31.js",
     "static/media/3 Columns Background.png": "/oddam-rzeczy-project/static/media/3 Columns Background.54dcd134c6b5241e5fbc.png",
     "static/media/Background-Contact-Form.jpg": "/oddam-rzeczy-project/static/media/Background-Contact-Form.655c54427d3b66427460.jpg",
     "static/media/People.jpg": "/oddam-rzeczy-project/static/media/People.2fa041c6275e64cce5d4.jpg",
@@ -15,11 +15,11 @@
     "static/media/Signature.svg": "/oddam-rzeczy-project/static/media/Signature.8f2a001d56e8f7d883e166ac3cc69892.svg",
     "static/media/Decoration.svg": "/oddam-rzeczy-project/static/media/Decoration.aad75271e33dd889f25b0e24a5e6c0b2.svg",
     "index.html": "/oddam-rzeczy-project/index.html",
-    "main.4b282f74.css.map": "/oddam-rzeczy-project/static/css/main.4b282f74.css.map",
-    "main.dc7d6dc1.js.map": "/oddam-rzeczy-project/static/js/main.dc7d6dc1.js.map"
+    "main.7444894e.css.map": "/oddam-rzeczy-project/static/css/main.7444894e.css.map",
+    "main.78f55b31.js.map": "/oddam-rzeczy-project/static/js/main.78f55b31.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b282f74.css",
-    "static/js/main.dc7d6dc1.js"
+    "static/css/main.7444894e.css",
+    "static/js/main.78f55b31.js"
   ]
 }
