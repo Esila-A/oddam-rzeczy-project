@@ -13,7 +13,7 @@ const Navigation = () => {
       {!currentUser && <BeforeSignIn />}
       {currentUser && <AfterSignIn />}
       <div className="navigation_menu">
-        <NavLink to="/" className="navigation_menu--link">
+        <NavLink to="/oddam-rzeczy-project" className="navigation_menu--link">
           Start
         </NavLink>
         <Link to="#home-four-steps" className="navigation_menu--link">
