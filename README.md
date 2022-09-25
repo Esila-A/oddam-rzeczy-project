@@ -23,5 +23,5 @@ React Router (6.3.0)<br/>
 Firebase Database<br/>
 
 ### The project status
-Done with its development. Website available on [tlumaczenia-a-wagner.pl](https://tlumaczenia-a-wagner.pl/)
+Done with its development. Website available on [https://Esila-A.github.io/oddam-rzeczy-project](https://Esila-A.github.io/oddam-rzeczy-project)
 
