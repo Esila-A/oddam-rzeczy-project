@@ -1,7 +1,7 @@
 .organizations {
   text-align: center;
   min-height: 100vh;
-  margin-top: 80px;
+  margin-top: 9.8vh;
 
   &_heading {
     @include heading;
@@ -9,16 +9,16 @@
 
   &_decoration {
     width: 13.5rem;
-    padding: 20px 0 60px 0;
+    padding: 2.5vh 0 7.2vh 0;
   }
 
   &_buttons {
-    margin-bottom: 70px;
+    margin-bottom: 8.6vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 530px;
-    font-size: 22px;
+    padding: 0 31vw;
+    font-size: 1.3vw;
 
     &--button {
       background-color: transparent;
@@ -54,14 +54,14 @@
   }
 
   &_paragraph {
-    margin-bottom: 30px;
-    font-size: 20px;
-    line-height: 28px;
+    margin-bottom: 3.7vh;
+    font-size: 1.17vw;
+    line-height: 3.4vh;
     color: $font-color;
   }
 
   &_list {
-    margin-bottom: 63px;
+    margin-bottom: 7.6vh;
     color: $font-color;
     padding: 0 250px;
 
@@ -69,7 +69,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 25px 0;
+      padding: 3vh 0;
 
       &:not(:last-child) {
         border-bottom: 2px solid $one;
@@ -79,18 +79,18 @@
         text-align: left;
 
         .title {
-          font-size: 24px;
-          line-height: 30px;
+          font-size: 1.4vw;
+          line-height: 3.7vh;
         }
 
         .description {
-          font-size: 16px;
-          line-height: 20px;
+          font-size: .95vw;
+          line-height: 2.4vh;
         }
       }
 
       .collected {
-        font-size: 16px;
+        font-size: .95vw;
       }
     }
   }

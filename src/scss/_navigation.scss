@@ -12,8 +12,8 @@
   .before,
   .after {
     display: flex;
-    font-size: 12px;
-    line-height: 36px;
+    font-size: .70vw;
+    line-height: 4.5vh;
     margin-right: 20px;
 
     .border {
@@ -46,8 +46,8 @@
   }
 
   &_menu {
-    font-size: 16px;
-    line-height: 42px;
+    font-size: .94vw;
+    line-height: 5vh;
     padding-top: 17px;
 
     &--link {

@@ -7,7 +7,7 @@
   &_content {
     background-color: $steps-background;
     text-align: center;
-    padding: 181px 0;
+    padding: 22vh 0;
     width: 50%;
 
     &--heading {
@@ -20,15 +20,16 @@
     }
 
     &--paragraph {
-      font-size: 28px;
-      line-height: 50px;
+      font-size: 1.64vw;
+      line-height: 6.1vh;
       letter-spacing: -0.6px;
     }
 
     &--signature {
-      padding-top: 40px;
+      padding-top: 5vh;
       position: relative;
-      left: 220px;
+      left: 13vw;
+      width: 12.3vw;
     }
   }
 
