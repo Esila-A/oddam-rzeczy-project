@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/oddam-rzeczy-project/static/css/main.7444894e.css",
+    "main.css": "/oddam-rzeczy-project/static/css/main.a62994af.css",
     "main.js": "/oddam-rzeczy-project/static/js/main.c3bfc1d9.js",
     "static/media/3 Columns Background.png": "/oddam-rzeczy-project/static/media/3 Columns Background.54dcd134c6b5241e5fbc.png",
     "static/media/Background-Contact-Form.jpg": "/oddam-rzeczy-project/static/media/Background-Contact-Form.655c54427d3b66427460.jpg",
@@ -15,11 +15,11 @@
     "static/media/Signature.svg": "/oddam-rzeczy-project/static/media/Signature.8f2a001d56e8f7d883e166ac3cc69892.svg",
     "static/media/Decoration.svg": "/oddam-rzeczy-project/static/media/Decoration.aad75271e33dd889f25b0e24a5e6c0b2.svg",
     "index.html": "/oddam-rzeczy-project/index.html",
-    "main.7444894e.css.map": "/oddam-rzeczy-project/static/css/main.7444894e.css.map",
+    "main.a62994af.css.map": "/oddam-rzeczy-project/static/css/main.a62994af.css.map",
     "main.c3bfc1d9.js.map": "/oddam-rzeczy-project/static/js/main.c3bfc1d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7444894e.css",
+    "static/css/main.a62994af.css",
     "static/js/main.c3bfc1d9.js"
   ]
 }
